@@ -1,0 +1,146 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #000;
+  margin: 0;
+  font-family: Helvetica, sans-serif;;
+  overflow: hidden;
+}
+
+a, p, h3, h6 {
+  color: #fff;
+  background: transparent;
+}
+
+h5 {
+  color: #fff;
+  padding-top: 35px;
+}
+
+.axis path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.axis line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+
+.legendText, .axis text {
+  font-size: 8px;
+  fill: #fff;
+}
+
+#loading {
+  width: 100px;
+  height: 100px;
+  background: url(img/loading.gif) no-repeat 5px 3px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#intro {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#menu {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+#icons {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+}
+
+.dataPoint {
+  fill: orange;
+  stroke: none;
+}
+
+.dataPoint:hover{
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.element {
+  width: 230px;
+  height: 160px;
+  background-color: rgba(48,103,145,.75);
+  border: 2px solid rgba(127,255,255,0.25);
+  border-radius: 8px;
+  text-align: center;
+  cursor: default;
+}
+
+.element:hover {
+  box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+  border: 1px solid rgba(127,255,255,0.75);
+}
+
+.element svg {
+  position: absolute;
+  top: 20px;
+  left: 2px;
+  right: 0px;
+}
+
+.element .investData {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  right: 0px;
+  font-size: 40px;
+  color: rgba(255,255,255,0.75);
+}
+
+.element .investLabel {
+  position: absolute;
+  top: 76px;
+  left: 12px;
+  right: 0px;
+  font-size: 8px;
+  color: rgba(255,255,255,0.75);
+}
+
+.element .chartTitle {
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  right: 0px;
+  font-size: 12px;
+  color: rgba(127,255,255,0.75);
+}
+
+button {
+  color: #fff;
+  background: transparent;
+  outline: 1px solid rgba(48,103,145,.75);
+  border: 0px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgba(48,103,145,.5);
+}
+button:active {
+  color: #000000;
+  background-color: rgba(48,103,145,.75);
+}

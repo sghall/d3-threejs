@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>delimited | CrunchBase Top Investors</title>
+  </head>
+  <body>
+    <div id="intro">
+      <h3>Top 100 Investors in CrunchBase (2004-2013)</h3>
+      <p>Arranged by Total Number of Investments</p>
+    </div>
+    <div id="loading">
+      <h5>Loading...</h5>
+    </div>
+    <div id="container"></div>
+    <div id="menu"></div>
+    <div id="icons">
+      <img src="css/img/single.png">
+      <img src="css/img/pinch.png">
+      <img src="css/img/triple.png">
+    </div>
+    <script src="lib/three.min.js"></script>
+    <script src="lib/tween.js"></script>
+    <script src="lib/CSS3DRenderer.js"></script>
+    <script src="lib/TrackballControls.js"></script>
+    <script src="lib/d3.min.js"></script>
+    <script src="js/viz.js"></script>
+    <script>
+      d3.json("data/investments.json", function (error, data) {
+        VIZ.drawElements(data);
+        VIZ.transform('helix');
+        d3.select("#loading").remove();
+        VIZ.render();
+        VIZ.animate();
+        window.addEventListener('resize', VIZ.onWindowResize, false);
+      });
+    </script>
+  </body>
+</html>
