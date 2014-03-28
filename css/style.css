@@ -97,6 +97,9 @@ h5 {
 .element {
   width: 230px;
   height: 160px;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background-color: rgba(48,103,145,.75);
   border: 2px solid rgba(127,255,255,0.25);
   border-radius: 8px;

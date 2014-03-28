@@ -144,7 +144,7 @@
 
   function setLegend(arr) {
     return arr.map(function (n, i) {
-      return {name: n, x: (i % 4) * 46, y: Math.floor(i / 4) * 8};
+      return {name: n, x: (i % 4) * 48, y: Math.floor(i / 4) * 8};
     });
   }
 
