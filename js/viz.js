@@ -191,8 +191,6 @@
     grid.position.y = ( - ( Math.floor( i / 5 ) % 5 ) * 400 ) + 800;
     grid.position.z = (Math.floor( i / 25 )) * 1000 - 2000;
     d['grid'] = grid;
-
-    d3.select(this).datum(d);
   }
 
   VIZ.render = function () {
