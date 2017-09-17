@@ -1,0 +1,19 @@
+{
+  "name": "d3-threejs",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^4.10.2",
+    "three": "^0.87.1"
+  },
+  "devDependencies": {
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "homepage": "http://projects.delimited.io/shader-zoo/css3d"
+}

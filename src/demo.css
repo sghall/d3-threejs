@@ -1,24 +1,3 @@
-html, body {
-  height: 100%;
-}
-
-body {
-  background-color: #000;
-  margin: 0;
-  font-family: Helvetica, sans-serif;;
-  overflow: hidden;
-}
-
-a, p, h3, h6 {
-  color: #fff;
-  background: transparent;
-}
-
-h5 {
-  color: #fff;
-  padding-top: 35px;
-}
-
 .axis path {
   fill: none;
   stroke: #fff;
@@ -38,50 +17,11 @@ h5 {
   fill: #fff;
 }
 
-#loading {
-  width: 100px;
-  height: 100px;
-  background: url(img/loading.gif) no-repeat 5px 3px;
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-}
-
-#intro {
-  position: absolute;
-  top: 20px;
-  width: 100%;
-  text-align: center;
-}
-
 #menu {
   position: absolute;
   bottom: 20px;
   width: 100%;
   text-align: center;
-}
-
-@media (max-width: 767px) {
-  #icons {
-    position:absolute;
-    width:200px;
-    height:50px;
-    bottom:50px;
-    right:25%;
-    left:50%;
-    margin-left:-80px;
-  }
-}
-
-@media (min-width: 768px) {
-  #icons {
-    position: absolute;
-    bottom: 20px;
-    left: 0px;
-  }
 }
 
 .dataPoint {
@@ -100,7 +40,7 @@ h5 {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgba(48,103,145,.75);
+  background-color: rgba(0,0,0,.75);
   border: 2px solid rgba(127,255,255,0.25);
   border-radius: 8px;
   text-align: center;
@@ -147,17 +87,19 @@ h5 {
 }
 
 button {
-  color: #fff;
-  background: transparent;
-  outline: 1px solid rgba(48,103,145,.75);
+  color: #333;
+  background-color: rgba(127,255,255,1);
+  outline: 1px solid rgba(0,0,0,.75);
   border: 0px;
   padding: 5px 10px;
   cursor: pointer;
 }
+
 button:hover {
-  background-color: rgba(48,103,145,.5);
+  background-color: rgba(255,255,255,1);
 }
+
 button:active {
   color: #000000;
-  background-color: rgba(48,103,145,.75);
+  background-color: rgba(0,0,0,.75);
 }
