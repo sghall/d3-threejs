@@ -15,5 +15,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://projects.delimited.io/shader-zoo/css3d"
+  "homepage": "http://projects.delimited.io/experiments/d3-threejs"
 }

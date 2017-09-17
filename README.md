@@ -12,11 +12,16 @@ Updated example to D3 4.0 and THREE.js 0.87
 ```
 git clone git@github.com:sghall/d3-threejs.git
 cd d3-threejs
-
 npm install 
 npm start
 ```
 <div style="text-align:center;">
-  <a href="https://github.com/sghall/d3-threejs" target="\_parent"><img src="https://user-images.githubusercontent.com/4615775/30525630-08f90834-9bbf-11e7-9a57-693794adc857.png" alt="d3 threejs" style="width:450px;"/></a>
+  <a href="http://projects.delimited.io/experiments/d3-threejs" target="\_parent"><img src="https://user-images.githubusercontent.com/4615775/30525630-08f90834-9bbf-11e7-9a57-693794adc857.png" alt="d3 threejs" style="width:450px;"/></a>
 </div>
+
+### Get a production build
+
+```
+npm run build
+```
 
