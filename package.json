@@ -1,7 +1,7 @@
 {
   "name": "d3-threejs",
   "version": "0.1.0",
-  "private": true,
+  "license": "MIT",
   "dependencies": {
     "d3": "^4.10.2",
     "three": "^0.87.1"
