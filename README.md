@@ -3,6 +3,8 @@ d3-threejs
 
 Demonstration of CSS 3D Transforms using D3 and Three.js.
 
+NOTE: This is not using WebGL but rather HTML/SVG elements transformed in 3D space using the [CSS 3D renderer](https://github.com/mrdoob/three.js/blob/dev/examples/js/renderers/CSS3DRenderer.js) from the THREE.js repo.
+
 ### Update September 17, 2017
 
 Updated example to D3 4.0 and THREE.js 0.87
